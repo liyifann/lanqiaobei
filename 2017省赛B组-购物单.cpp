@@ -83,6 +83,7 @@ int main(){
 		fin>>a>>b;
 		sum+=a*b/100;
 	}
+	fin.close();
 	cout<<sum<<endl;
 	return 0;
 }
